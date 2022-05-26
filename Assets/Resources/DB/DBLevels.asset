@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaaace4a497b3e244a46933651b03e4b, type: 3}
+  m_Name: DBLevels
+  m_EditorClassIdentifier: Assembly-CSharp:LaserGames.Collapse.DB:DbLevels
+  levels:
+  - Width: 8
+    Height: 11
+    CellSize: 64
+    SceneName: Level
+    ElementTypes: 00000000
+    ElementColors: 000000000100000002000000
+    MinMatchLength: 3
+    IntroRowsCount: 3
+    IntroDelay: 1
+    IntroRowsInterval: 0.5
+    ElementsSpawnInterval: 0.25
+    CameraPosition: {x: 0, y: 0.5, z: -10}
+    CameraSize: 8.5
+    SingleScore: 100
+    DefeatWindowDuration: 3
+    VictoryWindowDuration: 3
+    Name: Baby 1
+    goal: 0
+    GoalValue: 30
+    BombMatchCount: 6
+  - Width: 8
+    Height: 11
+    CellSize: 64
+    SceneName: Level
+    ElementTypes: 00000000
+    ElementColors: 000000000100000002000000
+    MinMatchLength: 3
+    IntroRowsCount: 3
+    IntroDelay: 1
+    IntroRowsInterval: 0.5
+    ElementsSpawnInterval: 0.25
+    CameraPosition: {x: 0, y: 0.5, z: -10}
+    CameraSize: 8.5
+    SingleScore: 100
+    DefeatWindowDuration: 3
+    VictoryWindowDuration: 3
+    Name: Baby 2
+    goal: 1
+    GoalValue: 100
+    BombMatchCount: 6
+  - Width: 8
+    Height: 11
+    CellSize: 64
+    SceneName: Level
+    ElementTypes: 00000000
+    ElementColors: 00000000010000000200000003000000
+    MinMatchLength: 3
+    IntroRowsCount: 3
+    IntroDelay: 1
+    IntroRowsInterval: 0.5
+    ElementsSpawnInterval: 0.25
+    CameraPosition: {x: 0, y: 0.5, z: -10}
+    CameraSize: 8.5
+    SingleScore: 110
+    DefeatWindowDuration: 3
+    VictoryWindowDuration: 3
+    Name: Easy
+    goal: 1
+    GoalValue: 150
+    BombMatchCount: 7
+  - Width: 8
+    Height: 10
+    CellSize: 64
+    SceneName: Level
+    ElementTypes: 00000000
+    ElementColors: 00000000010000000200000003000000
+    MinMatchLength: 3
+    IntroRowsCount: 3
+    IntroDelay: 1
+    IntroRowsInterval: 0.5
+    ElementsSpawnInterval: 0.2
+    CameraPosition: {x: 0, y: 0.5, z: -10}
+    CameraSize: 8.5
+    SingleScore: 100
+    DefeatWindowDuration: 3
+    VictoryWindowDuration: 3
+    Name: Medium
+    goal: 0
+    GoalValue: 40
+    BombMatchCount: 8
+  - Width: 8
+    Height: 10
+    CellSize: 64
+    SceneName: Level
+    ElementTypes: 00000000
+    ElementColors: 0000000001000000020000000300000004000000
+    MinMatchLength: 3
+    IntroRowsCount: 3
+    IntroDelay: 1
+    IntroRowsInterval: 0.5
+    ElementsSpawnInterval: 0.15
+    CameraPosition: {x: 0, y: 0.5, z: -10}
+    CameraSize: 8.5
+    SingleScore: 150
+    DefeatWindowDuration: 3
+    VictoryWindowDuration: 3
+    Name: Hard
+    goal: 1
+    GoalValue: 180
+    BombMatchCount: 9
+  - Width: 8
+    Height: 10
+    CellSize: 64
+    SceneName: Level
+    ElementTypes: 00000000
+    ElementColors: 0000000001000000020000000300000004000000
+    MinMatchLength: 3
+    IntroRowsCount: 3
+    IntroDelay: 1
+    IntroRowsInterval: 0.5
+    ElementsSpawnInterval: 0.1
+    CameraPosition: {x: 0, y: 0.5, z: -10}
+    CameraSize: 8.5
+    SingleScore: 200
+    DefeatWindowDuration: 3
+    VictoryWindowDuration: 3
+    Name: Pain
+    goal: 1
+    GoalValue: 200
+    BombMatchCount: 10
+  - Width: 6
+    Height: 9
+    CellSize: 64
+    SceneName: Level
+    ElementTypes: 00000000
+    ElementColors: 0000000001000000020000000300000004000000
+    MinMatchLength: 3
+    IntroRowsCount: 3
+    IntroDelay: 1
+    IntroRowsInterval: 0.5
+    ElementsSpawnInterval: 0.1
+    CameraPosition: {x: 0, y: 0.5, z: -10}
+    CameraSize: 7.5
+    SingleScore: 300
+    DefeatWindowDuration: 3
+    VictoryWindowDuration: 3
+    Name: Hell
+    goal: 1
+    GoalValue: 200
+    BombMatchCount: 10
