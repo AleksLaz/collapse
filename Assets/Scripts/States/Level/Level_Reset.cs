@@ -19,6 +19,7 @@ namespace LaserGames.Collapse.Level
 			boardController.Reset();
 			levelGoalValidator.Reset();
 			levelTimer?.Reset();
+			levelScoreCounter.Reset();
 
 			context.SwitchState<Level_Intro, Level_Reset>();
 		}

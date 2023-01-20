@@ -69,10 +69,16 @@ namespace LaserGames.Collapse.Level
 			bus = null;
 			levelConfig = null;
 		}
+
+		void ILevelScoreCounter.Reset()
+		{
+			scores = 0;
+		}
 	}
 
 	interface ILevelScoreCounter
 	{
 		void Clear();
+		void Reset();
 	}
 }
