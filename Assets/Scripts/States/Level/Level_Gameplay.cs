@@ -53,6 +53,13 @@ namespace LaserGames.Collapse.Level
 			Unsubscribe();
 			timeController.StopCoroutine(elementsSpawn);
 			bus.Invoke<S_HideLevelBottomPanel, bool>(false);
+
+			int scores = levelScoreCounter.Scores();
+			if (modelPlayer.BestScore.Value < scores)
+			{
+				modelPlayer.BestScore.Value = scores;
+			}
+
 			context.SwitchState<Level_VictoryOutro, Level_Gameplay>();
 		}
 

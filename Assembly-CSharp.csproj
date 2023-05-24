@@ -154,6 +154,11 @@
     <Compile Include="Assets\Scripts\States\Level\Level_Intro.cs" />
     <Compile Include="Assets\Scripts\States\Level\Level_Complete.cs" />
     <Compile Include="Assets\Scripts\Level\LevelElement.cs" />
+    <Compile Include="Assets\Scripts\Model\ModelBuilder.cs" />
+    <Compile Include="Assets\Scripts\Model\ModelPlayer.cs" />
+    <Compile Include="Assets\Scripts\DB\DBPlayer.cs" />
+    <Compile Include="Assets\Framework\Model\ModelField.cs" />
+    <Compile Include="Assets\Framework\Model\ModelFieldPrefs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Framework\TextMesh Pro\Shaders\TMPro.cginc" />

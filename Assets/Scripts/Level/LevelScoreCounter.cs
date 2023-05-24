@@ -74,11 +74,17 @@ namespace LaserGames.Collapse.Level
 		{
 			scores = 0;
 		}
+		
+		int ILevelScoreCounter.Scores()
+		{
+			return scores;
+		}
 	}
 
 	interface ILevelScoreCounter
 	{
 		void Clear();
 		void Reset();
+		int Scores();
 	}
 }
