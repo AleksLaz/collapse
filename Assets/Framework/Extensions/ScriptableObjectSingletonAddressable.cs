@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Created by Lazarevich Aleksei in year 2023.
+// Proprietary software (c) 2020 Lazarevich Aleksei.
+//
+using System;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;

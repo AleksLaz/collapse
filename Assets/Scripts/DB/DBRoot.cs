@@ -1,3 +1,6 @@
+// Created by Lazarevich Aleksei in year 2023.
+// Proprietary software (c) 2020 Lazarevich Aleksei.
+//
 using LaserGames.Framework;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
