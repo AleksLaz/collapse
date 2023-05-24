@@ -56,53 +56,30 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Framework\UI\BusPanelController.cs" />
-    <Compile Include="Assets\Scripts\UI\UISignals.cs" />
     <Compile Include="Assets\Scripts\Systems\InputProcessor.cs" />
-    <Compile Include="Assets\Framework\uiframework\Window\WindowParaLayer.cs" />
-    <Compile Include="Assets\Framework\Time\GlobalTimeBehaviour.cs" />
-    <Compile Include="Assets\Framework\uiframework\Core\AUILayer.cs" />
     <Compile Include="Assets\Scripts\Signals.cs" />
     <Compile Include="Assets\Scripts\UI\Windows\WLoading.cs" />
     <Compile Include="Assets\Framework\uiframework\Panel\APanelController.cs" />
     <Compile Include="Assets\Scripts\Level\LevelController.cs" />
     <Compile Include="Assets\Scripts\Board\MatchProcessor.cs" />
     <Compile Include="Assets\Scripts\Board\Board.cs" />
-    <Compile Include="Assets\Framework\uiframework\Panel\PanelPriority.cs" />
     <Compile Include="Assets\Scripts\States\Level\Level_VictoryOutro.cs" />
     <Compile Include="Assets\Framework\uiframework\Panel\PanelUILayer.cs" />
     <Compile Include="Assets\Framework\State\State.cs" />
-    <Compile Include="Assets\Scripts\Board\Cell.cs" />
-    <Compile Include="Assets\Framework\uiframework\UIFrame.cs" />
-    <Compile Include="Assets\Scripts\Board\BoardController.cs" />
     <Compile Include="Assets\Framework\Bus\Bus.cs" />
     <Compile Include="Assets\Scripts\GlobalController.cs" />
-    <Compile Include="Assets\Scripts\Level\LevelGoalValidator.cs" />
     <Compile Include="Assets\Framework\uiframework\UISettings.cs" />
     <Compile Include="Assets\Framework\uiframework\ScreenTransitions\SimpleFadeTransition.cs" />
     <Compile Include="Assets\Framework\uiframework\Core\ScreenControllerInterfaces.cs" />
     <Compile Include="Assets\Framework\uiframework\ScreenTransitions\ATransitionComponent.cs" />
     <Compile Include="Assets\Scripts\States\Level\ALevelSubstate.cs" />
     <Compile Include="Assets\Scripts\Board\MatchApprover.cs" />
-    <Compile Include="Assets\Framework\uiframework\Core\ScreenPropertyInterfaces.cs" />
-    <Compile Include="Assets\Scripts\States\Level\Level_Reset.cs" />
     <Compile Include="Assets\Scripts\States\Level\Level_Exit.cs" />
-    <Compile Include="Assets\Scripts\UI\Windows\WMainMenu\ItemSelectLevel.cs" />
-    <Compile Include="Assets\Scripts\Board\RowsShifter.cs" />
     <Compile Include="Assets\Scripts\States\Level\Level_DefeatOutro.cs" />
-    <Compile Include="Assets\Framework\Bus\BusFabric.cs" />
-    <Compile Include="Assets\Framework\State\Context.cs" />
-    <Compile Include="Assets\Framework\UI\BusWindowController.cs" />
-    <Compile Include="Assets\Scripts\Level\LevelElementsRandomizer.cs" />
-    <Compile Include="Assets\Framework\Time\TimeInterfaces.cs" />
-    <Compile Include="Assets\Framework\Extensions\ScriptableObjectSingleton.cs" />
-    <Compile Include="Assets\Scripts\States\MainMenuState.cs" />
-    <Compile Include="Assets\Framework\ObjectPool\ObjectPoolInstantiator.cs" />
     <Compile Include="Assets\Scripts\Board\FeatureApplier.cs" />
     <Compile Include="Assets\Framework\uiframework\Window\WindowUILayer.cs" />
     <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\Framework\uiframework\Window\WindowPriority.cs" />
-    <Compile Include="Assets\Scripts\States\AGlobalState.cs" />
     <Compile Include="Assets\Scripts\DB\DBTypes.cs" />
     <Compile Include="Assets\Scripts\States\Level\Level_Gameplay.cs" />
     <Compile Include="Assets\Scripts\UI\Windows\WMainMenu\WMainMenu.cs" />
@@ -111,59 +88,85 @@
     <Compile Include="Assets\Scripts\Board\BoardBuilder.cs" />
     <Compile Include="Assets\Scripts\DB\DBLevels.cs" />
     <Compile Include="Assets\Scripts\Board\BoardUtils.cs" />
-    <Compile Include="Assets\Scripts\UI\Windows\WLevelMenu.cs" />
-    <Compile Include="Assets\Framework\uiframework\Window\WindowProperties.cs" />
     <Compile Include="Assets\Scripts\UI\Panels\PLevelTop.cs" />
     <Compile Include="Assets\Scripts\PrefsKeys.cs" />
-    <Compile Include="Assets\Framework\uiframework\ScreenTransitions\LegacyAnimationScreenTransition.cs" />
-    <Compile Include="Assets\Framework\Bus\Signal.cs" />
-    <Compile Include="Assets\Framework\uiframework\ScreenTransitions\SlideScreenTransition.cs" />
     <Compile Include="Assets\Framework\ObjectPool\AObjectPoolObject.cs" />
-    <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModulePhysics.cs" />
-    <Compile Include="Assets\Scripts\UI\Panels\PLevelBottom.cs" />
-    <Compile Include="Assets\Framework\Extensions\Extensions.cs" />
     <Compile Include="Assets\Scripts\States\Level\Level_Start.cs" />
     <Compile Include="Assets\Scripts\States\Level\LevelContext.cs" />
     <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-    <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModuleSprite.cs" />
     <Compile Include="Assets\Framework\ObjectPool\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\States\GlobalContext.cs" />
+    <Compile Include="Assets\Scripts\DB\DBPlayer.cs" />
     <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\Scripts\Board\MatchFinder.cs" />
-    <Compile Include="Assets\Scripts\Board\IntroProcessor.cs" />
-    <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Scripts\States\LevelState.cs" />
-    <Compile Include="Assets\Scripts\UI\Windows\WLevelComplete.cs" />
     <Compile Include="Assets\Scripts\Level\LevelTimer.cs" />
-    <Compile Include="Assets\Scripts\DB\DBScreenIds.cs" />
-    <Compile Include="Assets\Framework\uiframework\Window\AWindowController.cs" />
-    <Compile Include="Assets\Scripts\Board\Element.cs" />
-    <Compile Include="Assets\Framework\uiframework\Core\AUIScreenController.cs" />
     <Compile Include="Assets\Scripts\States\Level\Level_Load.cs" />
-    <Compile Include="Assets\Framework\uiframework\Window\WindowHistoryEntry.cs" />
     <Compile Include="Assets\Scripts\Board\Line.cs" />
     <Compile Include="Assets\Scripts\UI\Windows\WNonInteraction.cs" />
-    <Compile Include="Assets\Framework\uiframework\ScreenTransitions\ScaleScreenTransition.cs" />
     <Compile Include="Assets\Framework\uiframework\Panel\PanelProperties.cs" />
     <Compile Include="Assets\Framework\Time\CustomYieldInstructions.cs" />
-    <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Scripts\UI\UIHelper.cs" />
     <Compile Include="Assets\Scripts\UI\LevelConfigs.cs" />
     <Compile Include="Assets\Scripts\Level\LevelScoreCounter.cs" />
     <Compile Include="Assets\Framework\Time\TimeController.cs" />
     <Compile Include="Assets\Scripts\States\Level\Level_Intro.cs" />
+    <Compile Include="Assets\Framework\UI\BusPanelController.cs" />
+    <Compile Include="Assets\Scripts\UI\UISignals.cs" />
+    <Compile Include="Assets\Framework\uiframework\Window\WindowParaLayer.cs" />
+    <Compile Include="Assets\Framework\Time\GlobalTimeBehaviour.cs" />
+    <Compile Include="Assets\Framework\uiframework\Core\AUILayer.cs" />
+    <Compile Include="Assets\Framework\Extensions\ScriptableObjectSingletonAddressable.cs" />
+    <Compile Include="Assets\Framework\uiframework\Panel\PanelPriority.cs" />
+    <Compile Include="Assets\Scripts\Board\Cell.cs" />
+    <Compile Include="Assets\Scripts\Model\ModelPlayer.cs" />
+    <Compile Include="Assets\Framework\uiframework\UIFrame.cs" />
+    <Compile Include="Assets\Scripts\Board\BoardController.cs" />
+    <Compile Include="Assets\Framework\Model\ModelField.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelGoalValidator.cs" />
+    <Compile Include="Assets\Framework\uiframework\Core\ScreenPropertyInterfaces.cs" />
+    <Compile Include="Assets\Scripts\States\Level\Level_Reset.cs" />
+    <Compile Include="Assets\Scripts\UI\Windows\WMainMenu\ItemSelectLevel.cs" />
+    <Compile Include="Assets\Scripts\Board\RowsShifter.cs" />
+    <Compile Include="Assets\Framework\Bus\BusFabric.cs" />
+    <Compile Include="Assets\Framework\State\Context.cs" />
+    <Compile Include="Assets\Framework\UI\BusWindowController.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelElementsRandomizer.cs" />
+    <Compile Include="Assets\Framework\Time\TimeInterfaces.cs" />
+    <Compile Include="Assets\Framework\Extensions\ScriptableObjectSingleton.cs" />
+    <Compile Include="Assets\Scripts\Model\ModelBuilder.cs" />
+    <Compile Include="Assets\Scripts\States\MainMenuState.cs" />
+    <Compile Include="Assets\Framework\ObjectPool\ObjectPoolInstantiator.cs" />
+    <Compile Include="Assets\Scripts\States\AGlobalState.cs" />
+    <Compile Include="Assets\Framework\uiframework\Window\WindowProperties.cs" />
+    <Compile Include="Assets\Scripts\UI\Windows\WLevelMenu.cs" />
+    <Compile Include="Assets\Framework\uiframework\ScreenTransitions\LegacyAnimationScreenTransition.cs" />
+    <Compile Include="Assets\Framework\Model\ModelFieldPrefs.cs" />
+    <Compile Include="Assets\Framework\Bus\Signal.cs" />
+    <Compile Include="Assets\Framework\uiframework\ScreenTransitions\SlideScreenTransition.cs" />
+    <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\Scripts\UI\Panels\PLevelBottom.cs" />
+    <Compile Include="Assets\Framework\Extensions\Extensions.cs" />
+    <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Scripts\Board\IntroProcessor.cs" />
+    <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Scripts\UI\Windows\WLevelComplete.cs" />
+    <Compile Include="Assets\Scripts\DB\DBScreenIds.cs" />
+    <Compile Include="Assets\Framework\uiframework\Window\AWindowController.cs" />
+    <Compile Include="Assets\Scripts\Board\Element.cs" />
+    <Compile Include="Assets\Framework\uiframework\Core\AUIScreenController.cs" />
+    <Compile Include="Assets\Framework\uiframework\Window\WindowHistoryEntry.cs" />
+    <Compile Include="Assets\Framework\uiframework\ScreenTransitions\ScaleScreenTransition.cs" />
+    <Compile Include="Assets\Framework\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Scripts\States\Level\Level_Complete.cs" />
     <Compile Include="Assets\Scripts\Level\LevelElement.cs" />
-    <Compile Include="Assets\Scripts\Model\ModelBuilder.cs" />
-    <Compile Include="Assets\Scripts\Model\ModelPlayer.cs" />
-    <Compile Include="Assets\Scripts\DB\DBPlayer.cs" />
-    <Compile Include="Assets\Framework\Model\ModelField.cs" />
-    <Compile Include="Assets\Framework\Model\ModelFieldPrefs.cs" />
+    <Compile Include="Assets\Scripts\DB\DBRoot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Framework\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Framework\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Framework\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\AddressableAssetsData\link.xml" />
     <None Include="Assets\Framework\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Framework\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Framework\DOTween\DOTween.XML" />
@@ -850,8 +853,14 @@
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.CacheServer">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
+    </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -877,8 +886,8 @@
     <Reference Include="Unity.2D.Path.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -889,11 +898,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
@@ -928,8 +940,17 @@
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>

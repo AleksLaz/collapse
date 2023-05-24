@@ -8,7 +8,7 @@ using UnityEngine;
 namespace LaserGames.Collapse.DB
 {
 	[CreateAssetMenu(fileName = "DBScreenIds", menuName = "Collapse/DB/Creare ScreenIds", order = 1100)]
-	public class DBScreenIds : ScriptableObjectSingleton<DBScreenIds>
+	public class DBScreenIds : ScriptableObjectSingletonAddressable<DBScreenIds>
 	{
 		public string LoadingWindow;
 		public string LevelDefeatWindow;

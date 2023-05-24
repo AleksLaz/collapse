@@ -8,7 +8,7 @@ using UnityEngine;
 namespace LaserGames.Collapse.DB
 {
 	[CreateAssetMenu(fileName = "DbLevels", menuName = "Collapse/DB/Creare Levels", order = 1000)]
-	public class DBLevels : ScriptableObjectSingleton<DBLevels>
+	public class DBLevels : ScriptableObjectSingletonAddressable<DBLevels>
 	{
 		[SerializeField]
 		LevelConfig[] levels = null;

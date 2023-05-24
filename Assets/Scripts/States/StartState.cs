@@ -3,6 +3,8 @@
 //
 using LaserGames.Collapse.DB;
 using LaserGames.Framework;
+using System;
+using System.Collections;
 
 
 namespace LaserGames.Collapse
@@ -11,16 +13,19 @@ namespace LaserGames.Collapse
 	{
 
 
-		void Load()
+		IEnumerator Load()
 		{
-			DBLevels.Load();
-			DBScreenIds.Load();
+			int loading = 2;
+			Action<bool> cb = (res) => loading--;
 
-			LoadComplete();
-		}
+			DBLevels.LoadAddressables(DBRoot.I.DBLevels, cb);
+			DBScreenIds.LoadAddressables(DBRoot.I.DBScreenIds, cb);
 
-		void LoadComplete()
-		{
+			while (loading != 0)
+			{
+				yield return null;
+			}
+
 			context.SwitchState<MainMenuState, StartState>();
 		}
 
@@ -28,7 +33,7 @@ namespace LaserGames.Collapse
 		#region AState
 		public override void Activate<T>()
 		{
-			Load();
+			timeController.StartCoroutine(Load());
 		}
 		#endregion AState
 	}

@@ -47,7 +47,17 @@ namespace LaserGames.Collapse
 
 			yield return null;
 
-			DBPlayer.Load();
+			DBRoot.Load();
+			yield return null;
+
+			bool playerLoaded = false;
+
+			DBPlayer.LoadAddressables(DBRoot.I.DBPlayer, (res) => playerLoaded = true);
+			while (!playerLoaded)
+			{
+				yield return null;
+			}
+
 			ModelPlayer modelPlayer = ModelBuilder.CreatePlayer();
 			yield return modelPlayer.Load();
 			yield return modelPlayer.Save();

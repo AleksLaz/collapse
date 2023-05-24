@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010c966aecdbf494b8891b438218df4f, type: 3}
+  m_Name: DBRoot
+  m_EditorClassIdentifier: 
+  DBPlayer:
+    m_AssetGUID: 9af787db207defb478d7862d4e7775bf
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  DBLevels:
+    m_AssetGUID: f3480e1bcbdd31b4ca2ae8eb123ad324
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  DBScreenIds:
+    m_AssetGUID: 173730316eb26f34da3652c13c955c46
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
